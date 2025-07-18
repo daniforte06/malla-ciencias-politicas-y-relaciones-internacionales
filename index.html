@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Ciencia Política UAH</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Malla Ciencia Política y Relaciones Internacionales</h1>
+  <div class="grid">
+    <!-- Semestres con ramos -->
+    <div class="ramo" data-id="POLI101" data-prerreqs="">Introducción a la Ciencia Política</div>
+    <div class="ramo" data-id="HIST101" data-prerreqs="">Historia Contemporánea</div>
+    <div class="ramo" data-id="ECON101" data-prerreqs="">Introducción a la Economía</div>
+    <div class="ramo" data-id="POLI201" data-prerreqs="POLI101">Gobierno e Instituciones Políticas</div>
+    <div class="ramo" data-id="POLI301" data-prerreqs="POLI201">Política Comparada</div>
+    <div class="ramo" data-id="POLI302" data-prerreqs="POLI201">Relaciones Internacionales</div>
+    <div class="ramo" data-id="POLI401" data-prerreqs="POLI301,POLI302">Teoría Política</div>
+    <!-- Agrega más ramos aquí con sus prerequisitos -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
